@@ -1,0 +1,36 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zxmlmodel.Products" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+	 <Table id="idTable" items="{/d/results/element}">
+	          <columns>
+	             <Column>
+	                <header>
+	                    <Text text="{m2>PROD_ID}"/>
+	                </header>
+	             </Column>
+	             <Column>
+	                    <Text text="{m2>NAME}"/>
+	             </Column>
+	             
+	             <Column>       
+	                    <Text text="{m2>TYPE_CODE}"/>  
+	             </Column>
+	             <Column>
+	                    <Text text="{m2>CAT}"/>
+	             </Column>
+	          </columns>
+	          <items>
+	             <ColumnListItem>
+	                 <cells>
+	                     <Text text="{ProductID}"/>
+	                     <Text text="{Name}"/>
+	                     <Text text="{TypeCode}"/>
+	                     <Text text="{Category}"/>
+	                 </cells>
+	             </ColumnListItem>
+	               </items>
+	        </Table>
+		</content>
+	</Page>
+</core:View>

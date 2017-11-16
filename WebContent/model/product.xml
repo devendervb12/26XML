@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <d>
+      <results>
+         <element>
+            <Category>PCs</Category>
+            <Name>name 022</Name>
+            <ProductID>0002</ProductID>
+            <TypeCode>PR</TypeCode>
+         </element>
+         <element>
+            <Category>PCs</Category>
+            <Name>Sharath</Name>
+            <ProductID>0123</ProductID>
+            <TypeCode>PR</TypeCode>
+         </element>
+         <element>
+            <Category>PCs</Category>
+            <Name>sm143</Name>
+            <ProductID>0143</ProductID>
+            <TypeCode>PR</TypeCode>
+         </element>
+         <element>
+            <Category>PCs</Category>
+            <Name>sm143</Name>
+            <ProductID>01423</ProductID>
+            <TypeCode>PR</TypeCode>
+         </element>
+         <element>
+            <Category>PCs</Category>
+            <Name>sm143</Name>
+            <ProductID>01445</ProductID>
+            <TypeCode>PR</TypeCode>
+         </element>
+      </results>
+   </d>
+</root>
